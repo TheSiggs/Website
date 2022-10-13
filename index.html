@@ -1,10 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<a href="animations/cube/cube.html">Cube</a>
-</body>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Grids</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/snow.css" />
+		<link rel="stylesheet" type="text/css" href="css/birds.css" />
+	</head>
+	<body class="demo-2 loading">
+		<!-- Header Icons -->
+		<svg class="hidden">
+<!--			<symbol id="icon-arrow" viewBox="0 0 24 24">-->
+<!--				<title>arrow</title>-->
+<!--				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>-->
+<!--			</symbol>-->
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="message">To see the menu, please view on a larger screen.</div>
+			<!-- Header and footer links -->
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+<!--						<a class="codrops-icon codrops-icon&#45;&#45;prev" href="https://tympanus.net/Development/GlitchSlideshow/" title="Previous Demo"><svg class="icon icon&#45;&#45;arrow"><use xlink:href="#icon-arrow"></use></svg></a>-->
+						<a class="codrops-icon codrops-icon--drop" href="#" title="Github"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					</div>
+<!--					<h1 class="codrops-header__title">Grid Menu</h1>-->
+<!--					<span class="info">Inspired by <a href="https://www.youtube.com/watch?v=Z9Ku5ptjzKw">Ableton Live 10: What's New</a></span>-->
+				</header>
+				<nav class="demos">
+					<a class="demo" href="https://github.com/TheSiggs">Github</a>
+					<a class="demo" href="animations/cube/index.html">Cube</a>
+				</nav>
+				<button class="menu-trigger">+ explore</button>
+			</div>
+			<!-- Main Screens -->
+			<div id="content-1" class="content content--switch content--switch-current">
+				<h2 class="content__title">Sam Siggs</h2>
+				<div class="content__subtitle">Endeavour to improve</div>
+				<div class="snow">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
+						<g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
+							<g id="snow-bottom-layer">
+								<ellipse cx="6" cy="1009.5" rx="6" ry="5.5"/>
+								<ellipse cx="138" cy="1110.5" rx="6" ry="5.5"/>
+								<ellipse cx="398" cy="1055.5" rx="6" ry="5.5"/>
+								<ellipse cx="719" cy="1284.5" rx="6" ry="5.5"/>
+								<ellipse cx="760" cy="1155.5" rx="6" ry="5.5"/>
+								<ellipse cx="635" cy="1459.5" rx="6" ry="5.5"/>
+								<ellipse cx="478" cy="1335.5" rx="6" ry="5.5"/>
+								<ellipse cx="322" cy="1414.5" rx="6" ry="5.5"/>
+								<ellipse cx="247" cy="1234.5" rx="6" ry="5.5"/>
+								<ellipse cx="154" cy="1425.5" rx="6" ry="5.5"/>
+								<ellipse cx="731" cy="773.5" rx="6" ry="5.5"/>
+								<ellipse cx="599" cy="874.5" rx="6" ry="5.5"/>
+								<ellipse cx="339" cy="819.5" rx="6" ry="5.5"/>
+								<ellipse cx="239" cy="1004.5" rx="6" ry="5.5"/>
+								<ellipse cx="113" cy="863.5" rx="6" ry="5.5"/>
+								<ellipse cx="102" cy="1223.5" rx="6" ry="5.5"/>
+								<ellipse cx="395" cy="1155.5" rx="6" ry="5.5"/>
+								<ellipse cx="826" cy="943.5" rx="6" ry="5.5"/>
+								<ellipse cx="626" cy="1054.5" rx="6" ry="5.5"/>
+								<ellipse cx="887" cy="1366.5" rx="6" ry="5.5"/>
+								<ellipse cx="6" cy="241.5" rx="6" ry="5.5"/>
+								<ellipse cx="138" cy="342.5" rx="6" ry="5.5"/>
+								<ellipse cx="398" cy="287.5" rx="6" ry="5.5"/>
+								<ellipse cx="719" cy="516.5" rx="6" ry="5.5"/>
+								<ellipse cx="760" cy="387.5" rx="6" ry="5.5"/>
+								<ellipse cx="635" cy="691.5" rx="6" ry="5.5"/>
+								<ellipse cx="478" cy="567.5" rx="6" ry="5.5"/>
+								<ellipse cx="322" cy="646.5" rx="6" ry="5.5"/>
+								<ellipse cx="247" cy="466.5" rx="6" ry="5.5"/>
+								<ellipse cx="154" cy="657.5" rx="6" ry="5.5"/>
+								<ellipse cx="731" cy="5.5" rx="6" ry="5.5"/>
+								<ellipse cx="599" cy="106.5" rx="6" ry="5.5"/>
+								<ellipse cx="339" cy="51.5" rx="6" ry="5.5"/>
+								<ellipse cx="239" cy="236.5" rx="6" ry="5.5"/>
+								<ellipse cx="113" cy="95.5" rx="6" ry="5.5"/>
+								<ellipse cx="102" cy="455.5" rx="6" ry="5.5"/>
+								<ellipse cx="395" cy="387.5" rx="6" ry="5.5"/>
+								<ellipse cx="826" cy="175.5" rx="6" ry="5.5"/>
+								<ellipse cx="626" cy="286.5" rx="6" ry="5.5"/>
+								<ellipse cx="887" cy="598.5" rx="6" ry="5.5"/>
+							</g>
+						</g>
+						<g fill="#FFF" fill-opacity=".3" transform="translate(65 63)">
+							<g id="snow-top-layer">
+								<circle cx="8" cy="776" r="8"/>
+								<circle cx="189" cy="925" r="8"/>
+								<circle cx="548" cy="844" r="8"/>
+								<circle cx="685" cy="1115" r="8"/>
+								<circle cx="858" cy="909" r="8"/>
+								<circle cx="874" cy="1438" r="8" transform="rotate(180 874 1438)"/>
+								<circle cx="657" cy="1256" r="8" transform="rotate(180 657 1256)"/>
+								<circle cx="443" cy="1372" r="8" transform="rotate(180 443 1372)"/>
+								<circle cx="339" cy="1107" r="8" transform="rotate(180 339 1107)"/>
+								<circle cx="24" cy="1305" r="8" transform="rotate(180 24 1305)"/>
+								<circle cx="8" cy="8" r="8"/>
+								<circle cx="189" cy="157" r="8"/>
+								<circle cx="548" cy="76" r="8"/>
+								<circle cx="685" cy="347" r="8"/>
+								<circle cx="858" cy="141" r="8"/>
+								<circle cx="874" cy="670" r="8" transform="rotate(180 874 670)"/>
+								<circle cx="657" cy="488" r="8" transform="rotate(180 657 488)"/>
+								<circle cx="443" cy="604" r="8" transform="rotate(180 443 604)"/>
+								<circle cx="339" cy="339" r="8" transform="rotate(180 339 339)"/>
+								<circle cx="24" cy="537" r="8" transform="rotate(180 24 537)"/>
+							</g>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<div id="content-2" class="content content--switch">
+				<h2 class="content__title">Beach</h2>
+				<div class="content__subtitle">Lift your spirits</div>
+			</div>
+			<div id="content-3" class="content content--switch">
+				<h2 class="content__title">Desert</h2>
+				<div class="content__subtitle">Find yourself</div>
+			</div>
+			<div id="content-4" class="content content--switch">
+				<h2 class="content__title">Ocean</h2>
+				<div class="content__subtitle">Uncover beauty</div>
+			</div>
+			<div id="content-5" class="content content--switch">
+				<div class="bird-container bird-container--one">
+					<div class="bird bird--one"></div>
+				</div>
+
+				<div class="bird-container bird-container--two">
+					<div class="bird bird--two"></div>
+				</div>
+
+				<div class="bird-container bird-container--three">
+					<div class="bird bird--three"></div>
+				</div>
+
+				<div class="bird-container bird-container--four">
+					<div class="bird bird--four"></div>
+				</div>
+				<h2 class="content__title">Jungle</h2>
+				<div class="content__subtitle">Feel nature</div>
+			</div>
+			<div id="content-6" class="content content--switch">
+				<h2 class="content__title">Mountains</h2>
+				<div class="content__subtitle">Explore your limits</div>
+			</div>
+
+			<!-- Navigation Menu -->
+			<nav class="grim">
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--1"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--2"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--3"></div>
+					<div class="grim__item-content">
+						<div class="grim__item-inner">
+							<button class="menu-trigger menu-trigger--close">- close</button>
+						</div>
+					</div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--4"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--5"></div>
+					<a href="#content-1" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Home</h3>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--6"></div>
+					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/1.jpg);"></div>
+					<a href="#content-2" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Beach</h3>
+							<span class="grim__item-desc">Lift your spirits</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--7"></div>
+					<div class="grim__item-img grim__item-img--2" style="background-image: url(img/2.jpg);"></div>
+					<a href="#content-3" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Desert</h3>
+							<span class="grim__item-desc">Find yourself</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--8"></div>
+					<div class="grim__item-img grim__item-img--3" style="background-image: url(img/3.jpg);"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Ocean</h3>
+							<span class="grim__item-desc">Uncover beauty</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--9"></div>
+					<div class="grim__item-img grim__item-img--4" style="background-image: url(img/4.jpg);"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Jungle</h3>
+							<span class="grim__item-desc">Feel nature</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--10"></div>
+					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/5.jpg);"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">Mountains</h3>
+							<span class="grim__item-desc">Explore your limits</span>
+						</div>
+					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>
+				</div>
+			</nav>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
 </html>
